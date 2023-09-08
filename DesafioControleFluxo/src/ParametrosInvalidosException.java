@@ -1,5 +1,6 @@
-public class ParametrosInvalidosException {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+public class ParametrosInvalidosException extends Exception {
+        public ParametrosInvalidosException() {
+            super("O segundo parâmetro deve ser maior que o primeiro.");
+             
     }
 }
